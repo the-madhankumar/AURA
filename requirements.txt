@@ -1,0 +1,14 @@
+langgraph
+langsmith
+langchain
+langchain_groq
+langchain_community
+python-dotenv
+typing
+IPython
+graphviz
+phidata
+openai
+duckduckgo-search
+newspaper4k
+lxml_html_clean
