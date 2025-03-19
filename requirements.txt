@@ -12,3 +12,7 @@ langchain-huggingface
 langchain-core
 huggingface_hub
 transformers
+chromadb
+sentence-transformers
+pymupdf
+langchain

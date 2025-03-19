@@ -3,6 +3,9 @@ Autonomous_Unified_Research_Assistant.egg-info/PKG-INFO
 Autonomous_Unified_Research_Assistant.egg-info/SOURCES.txt
 Autonomous_Unified_Research_Assistant.egg-info/dependency_links.txt
 Autonomous_Unified_Research_Assistant.egg-info/top_level.txt
+agents/EmbedEndpoints.py
 agents/__init__.py
 agents/endpoints.py
+agents/imageEndPoint.py
+agents/searchEndpoint.py
 agents/textEndPoint.py
