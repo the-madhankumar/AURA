@@ -1,5 +1,9 @@
-# Replace with a valid API key
-api_key = "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"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+api_key = os.getenv("HF_TOKEN")
 from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 
