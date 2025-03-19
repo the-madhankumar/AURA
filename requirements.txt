@@ -3,7 +3,12 @@ python-dotenv
 yfinance
 packaging
 duckduckgo-search
-fastapi
+fastapi[standard]
 uvicorn
 groq
 openai
+setuptools
+langchain-huggingface
+langchain-core
+huggingface_hub
+transformers

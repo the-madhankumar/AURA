@@ -10,10 +10,8 @@ load_dotenv()
 groq_api_key = os.getenv("GROQ_API_KEY")
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
-# Update to the latest Phi model
 model_id = "deepseek-r1-distill-llama-70b"
 
-# Define the Research Paper Retrieval Agent
 research_paper_agent = Agent(
     name="Research Paper Agent",
     role="Search for and retrieve research papers",
@@ -47,7 +45,6 @@ research_agent = Agent(
     markdown=True,
 )
 
-# Multi-agent System
 multi_ai_agent = Agent(
     team=[research_paper_agent, research_agent],
     instructions=[
