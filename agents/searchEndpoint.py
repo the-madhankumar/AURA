@@ -17,4 +17,4 @@ class SearchManager:
             n_results=top_k,
         )
 
-        return results["documents"]  # Extract documents from results
+        return results["documents"] 

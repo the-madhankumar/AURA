@@ -21,8 +21,28 @@ api_key = os.getenv("HF_TOKEN")
 # print("************************************")
 # print(response['text'])
 
-from agents.imageEndPoint import ImageOCR
 
-ocr = ImageOCR()
-text = ocr.extract_text(r"C:\Users\madha\Pictures\Jeff-Bezos-PNG-HD-Isolated.png")
-print(text)
+######################### Image OCR ###########################
+# from agents.imageEndPoint import ImageOCR
+
+# ocr = ImageOCR()
+# text = ocr.extract_text(r"C:\Users\madha\Pictures\Jeff-Bezos-PNG-HD-Isolated.png")
+# print(text)
+
+
+######################### Web Search ###########################
+# from agents.duckduckGo import ResearchSearchAgent
+
+# agent = ResearchSearchAgent()
+
+# # user_query = input("Enter your research topic: ")
+# user_query = "The impact of AI on climate change research"
+
+# result = agent.search(user_query)
+
+# print("\n--- Research Results ---\n")
+# print(result)
+
+
+# import sys
+# print("Python Paths:", sys.path)
