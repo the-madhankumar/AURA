@@ -17,3 +17,5 @@ sentence-transformers
 pymupdf
 langchain
 streamlit
+PyPDF2
+shutil
