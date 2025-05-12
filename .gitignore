@@ -1,4 +1,4 @@
-env/
+venv/
 .env
 python=3.10/
 REPORT/
